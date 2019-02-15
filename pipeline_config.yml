@@ -32,9 +32,9 @@ stages:
 
   productionDeployment:
     cfTargets:
-      - org: 'I065171trial_trial'
+      - org: 'D050367trial_trial'
         space: 'dev'
         apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
-        appName: 'address-manager'
+        appName: 'address-manager-no3'
         manifest: 'manifest.yml'
-        credentialsId: 'MOCKED_ERP_SYSTEM'
+        credentialsId: 'CF'
