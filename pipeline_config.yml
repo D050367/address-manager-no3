@@ -32,7 +32,7 @@ stages:
 
   productionDeployment:
     cfTargets:
-      - org: 'D050367trial_trial'
+      - org: 'D050367trial_d050367trial'
         space: 'dev'
         apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
         appName: 'address-manager-no3'
